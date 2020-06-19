@@ -5,6 +5,7 @@
   "author": "Jake Klassen",
   "license": "MIT",
   "scripts": {
+    "build": "tsc",
     "start": "ts-node src"
   },
   "dependencies": {
