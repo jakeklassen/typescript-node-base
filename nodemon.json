@@ -2,5 +2,5 @@
   "watch": ["src"],
   "ignore": ["src/**/*.test.ts"],
   "ext": "ts,mjs,js,json,graphql",
-  "exec": "etsc && node -r ./dist/prod-paths.js ./dist"
+  "exec": "yarn build && node ./dist"
 }
