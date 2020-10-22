@@ -4365,11 +4365,12 @@ replace-in-file@^6.1.0:
     yargs "^15.3.1"
 
 replace-tsconfig-paths@^1.2.2:
-  version "1.2.4"
-  resolved "https://registry.yarnpkg.com/replace-tsconfig-paths/-/replace-tsconfig-paths-1.2.4.tgz#205164c8653624868b1a2c59e31c995fd7d5be97"
-  integrity sha512-F37obWqJI9d9Y3KDZMRb2CRsu7UCgCffcbrRmOO1mqsPcKp6lgcE7tStWqui/0AkRNGM3uGCHhAhQNzN6BPyVg==
+  version "1.2.5"
+  resolved "https://registry.yarnpkg.com/replace-tsconfig-paths/-/replace-tsconfig-paths-1.2.5.tgz#368b81f8617ed1f8173f13c29d5072d0ec638cb9"
+  integrity sha512-hfVnaiV6vCaom+eBPDyJyIKeFsj3DWBtQK1a6Kjd1D5FL2+rDyebBZVviNwZY/LJ1sVVtkz8onJgzQgGjc3w/w==
   dependencies:
     comment-json "^4.1.0"
+    execa "^4.0.3"
     glob "^7.1.6"
     replace-in-file "^6.1.0"
     yargs "^16.1.0"
