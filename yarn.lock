@@ -687,6 +687,11 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.10.tgz#5958a82e41863cfc71f2307b3748e3491ba03785"
   integrity sha512-J32dgx2hw8vXrSbu4ZlVhn1Nm3GbeCFNw2FWL8S5QKucHGY0cyNwjdQdO+KMBZ4wpmC7KhLCiNsdk1RFRIYUQQ==
 
+"@types/node@^14.0.5":
+  version "14.14.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.2.tgz#d25295f9e4ca5989a2c610754dc02a9721235eeb"
+  integrity sha512-jeYJU2kl7hL9U5xuI/BhKPZ4vqGM/OmK6whiFAXVhlstzZhVamWhDSmHyGLIp+RVyuF9/d0dqr2P85aFj4BvJg==
+
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/@types/normalize-package-data/-/normalize-package-data-2.4.0.tgz#e486d0d97396d79beedd0a6e33f4534ff6b4973e"
@@ -4360,9 +4365,9 @@ replace-in-file@^6.1.0:
     yargs "^15.3.1"
 
 replace-tsconfig-paths@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/replace-tsconfig-paths/-/replace-tsconfig-paths-1.2.2.tgz#8ec7618077c3644e1e13d483c620badf11bf55f5"
-  integrity sha512-GSIkxAHIXO7Nw3xXIgFG7aBDrrQWFglJOdjs7q/NcLnQvQ4lxvP9vo33WqzyamlO0iQWzPNr/3bBb47bXa/wQw==
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/replace-tsconfig-paths/-/replace-tsconfig-paths-1.2.4.tgz#205164c8653624868b1a2c59e31c995fd7d5be97"
+  integrity sha512-F37obWqJI9d9Y3KDZMRb2CRsu7UCgCffcbrRmOO1mqsPcKp6lgcE7tStWqui/0AkRNGM3uGCHhAhQNzN6BPyVg==
   dependencies:
     comment-json "^4.1.0"
     glob "^7.1.6"
