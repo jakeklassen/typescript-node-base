@@ -1819,7 +1819,7 @@ esbuild-register@^1.1.0:
     source-map-support "^0.5.19"
     strip-json-comments "^3.1.1"
 
-esbuild@^0.7.16, esbuild@^0.7.17:
+esbuild@^0.7.17:
   version "0.7.22"
   resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.7.22.tgz#9149b903f8128b7c45a754046c24199d76bbe08e"
   integrity sha512-B43SYg8LGWYTCv9Gs0RnuLNwjzpuWOoCaZHTWEDEf5AfrnuDMerPVMdCEu7xOdhFvQ+UqfP2MGU9lxEy0JzccA==
@@ -1829,7 +1829,7 @@ esbuild@^0.8.11:
   resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.8.15.tgz#cbc4d82a7fc4571d455233456e6fba83fd0364f1"
   integrity sha512-mSaLo9t/oYtQE6FRUEdO47Pr8PisSPzHtgr+LcihIcjBEhbYwjT6WLCQ7noDoTBfIatBCw229rtmIwl9u9UQwg==
 
-esbuild@^0.8.16:
+esbuild@^0.8.16, esbuild@^0.8.17:
   version "0.8.17"
   resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.8.17.tgz#1c16c6d5988dcfdcf27a7e1612b7fd05e1477c54"
   integrity sha512-ReHap+Iyn5BQF0B8F3xrLwu+j57ri5uDUw2ej9XTPAuFDebYiWwRzBY4jhF610bklveXLbCGim/8/2wQKQlu1w==
