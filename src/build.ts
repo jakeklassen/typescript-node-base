@@ -2,9 +2,9 @@ import esbuild from 'esbuild';
 
 esbuild
   .build({
-    target: 'node14',
-    platform: 'node',
-    format: 'cjs',
+    target: 'node16',
+    platform: 'neutral',
+    format: 'esm',
     write: true,
     bundle: false,
     outdir: 'dist',
