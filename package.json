@@ -34,7 +34,7 @@
     "eslint": "^7.1.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "esno": "^0.9.1",
+    "esno": "^0.10.1",
     "jest": "^27.0.4",
     "nodemon": "^2.0.5",
     "prettier": "^2.0.5",

@@ -9,6 +9,7 @@ const { compilerOptions } = parse(
   fs.readFileSync('./tsconfig.json').toString(),
 );
 
+/** @type {import("ts-jest/dist/types").InitialOptionsTsJest} */
 const config = {
   automock: false,
   bail: false,
