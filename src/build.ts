@@ -1,18 +1,24 @@
 import esbuild from 'esbuild';
+import path from 'node:path';
+import glob from 'tiny-glob';
 
-esbuild
-  .build({
-    target: 'node16',
-    platform: 'neutral',
-    format: 'esm',
-    write: true,
-    bundle: false,
-    outdir: 'dist',
-    sourcemap: 'external',
-    loader: {
-      '.ts': 'ts',
-    },
-    entryPoints: ['./src/index.ts'],
-    tsconfig: './tsconfig.json',
-  })
-  .catch(console.error);
+console.log(path.resolve(import.meta.url, '..'));
+
+(async () => {
+  esbuild
+    .build({
+      target: 'node16',
+      platform: 'node',
+      format: 'esm',
+      write: true,
+      bundle: false,
+      outdir: 'dist',
+      sourcemap: 'external',
+      loader: {
+        '.ts': 'ts',
+      },
+      entryPoints: await glob('./src/**/*.ts'),
+      tsconfig: './tsconfig.json',
+    })
+    .catch(console.error);
+})();
