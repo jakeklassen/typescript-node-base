@@ -5,7 +5,7 @@ import glob from 'tiny-glob';
 console.log(path.resolve(import.meta.url, '..'));
 
 (async () => {
-  esbuild
+  await esbuild
     .build({
       target: 'node16',
       platform: 'node',

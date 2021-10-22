@@ -19,7 +19,7 @@
       "program": "${workspaceFolder}/node_modules/.bin/jest",
       "args": [
         "-c",
-        "${workspaceFolder}/jest.debug.config.js",
+        "${workspaceFolder}/jest.debug.config.cjs",
         "${relativeFile}",
         "--forceExit"
       ],

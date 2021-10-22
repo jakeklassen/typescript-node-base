@@ -1,4 +1,4 @@
-import { add } from '@app/lib/math';
+import { add } from './math.js';
 
 describe('math.add', () => {
   it('should add numbers correctly', () => {

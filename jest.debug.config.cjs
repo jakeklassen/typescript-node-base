@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
 
-const fs = require('fs');
+const fs = require('node:fs');
 const { pathsToModuleNameMapper } = require('ts-jest/utils');
 const { parse } = require('comment-json');
 // In the following statement, replace `./tsconfig` with the path to your `tsconfig` file
