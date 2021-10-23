@@ -4,6 +4,8 @@ import { Logger } from '../services/logger';
 
 @Service({ id: JobToken, multiple: true })
 export class SampleLog implements Job {
+  static schedule = '* * 12 * *';
+
   @Inject()
   private logger!: Logger;
 
