@@ -10,7 +10,7 @@ export class SampleLog implements Job {
   private logger!: Logger;
 
   async run(): Promise<void> {
-    await new Promise((resolve) =>
+    await new Promise<void>((resolve) =>
       setTimeout(() => {
         this.logger.log('SampleLog#run');
 

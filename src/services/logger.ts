@@ -4,7 +4,7 @@ export class AsyncSource {
   initialized = false;
 
   async init(): Promise<void> {
-    await new Promise((resolve) =>
+    await new Promise<void>((resolve) =>
       setTimeout(() => {
         this.initialized = true;
 
