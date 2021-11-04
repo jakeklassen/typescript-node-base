@@ -11,7 +11,12 @@ const app = express();
 
 app.use(
   pino({
-    prettyPrint: true,
+    transport: {
+      target: 'pino-pretty',
+      options: {
+        colorize: true,
+      },
+    },
   }),
 );
 
