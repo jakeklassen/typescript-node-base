@@ -9,13 +9,8 @@
     "build": "tsc",
     "prepare": "ts-patch install -s",
     "watch": "tsc --watch",
-    "start": "node -r tsm src",
+    "start": "ts-node src",
     "test": "jest"
-  },
-  "imports": {
-    "#app/*": [
-      "./dist/*"
-    ]
   },
   "dependencies": {
     "reflect-metadata": "^0.1.13",
@@ -38,7 +33,9 @@
     "shx": "^0.3.3",
     "ts-auto-mock": "^3.5.0",
     "ts-jest": "^27.0.7",
+    "ts-node": "^10.4.0",
     "ts-patch": "^2.0.1",
+    "tsconfig-paths": "^3.11.0",
     "tsm": "^2.1.4",
     "uvu": "^0.5.2"
   }
