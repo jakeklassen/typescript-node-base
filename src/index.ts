@@ -1,8 +1,8 @@
 import clipboary from 'clipboardy';
 import express, { ErrorRequestHandler } from 'express';
+import getPort from 'get-port';
 import pino from 'pino-http';
 import { add, clamp } from './lib/math.js';
-import getPort from 'get-port';
 
 console.log(`add(1, 2, 3, 4) = ${add(1, 2, 3, 4)}`);
 console.log(`clamp(12, 1, 100) = ${clamp(12, 1, 100)}`);
