@@ -19,7 +19,7 @@
   "devDependencies": {
     "@types/comment-json": "2.4.2",
     "@types/jest": "27.4.0",
-    "@types/node": "16.11.22",
+    "@types/node": "16.11.23",
     "@typescript-eslint/eslint-plugin": "5.11.0",
     "@typescript-eslint/parser": "5.11.0",
     "comment-json": "4.2.2",
