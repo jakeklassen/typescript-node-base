@@ -14,14 +14,14 @@
   },
   "dependencies": {
     "reflect-metadata": "^0.1.13",
-    "typescript": "^4.4.4"
+    "typescript": "^4.5.5"
   },
   "devDependencies": {
     "@types/comment-json": "2.4.2",
     "@types/jest": "27.4.0",
     "@types/node": "16.11.24",
-    "@typescript-eslint/eslint-plugin": "5.11.0",
-    "@typescript-eslint/parser": "5.11.0",
+    "@typescript-eslint/eslint-plugin": "5.12.0",
+    "@typescript-eslint/parser": "5.12.0",
     "comment-json": "4.2.2",
     "eslint": "8.9.0",
     "eslint-config-prettier": "8.3.0",
