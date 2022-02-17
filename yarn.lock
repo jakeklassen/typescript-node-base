@@ -994,13 +994,6 @@
   dependencies:
     "@babel/types" "^7.3.0"
 
-"@types/comment-json@2.4.2":
-  version "2.4.2"
-  resolved "https://registry.yarnpkg.com/@types/comment-json/-/comment-json-2.4.2.tgz#336368d351b9d29fb08352d37c2686b3fc4d882a"
-  integrity sha512-El8na9x7/3M4KxXvOL34fbXbQtBgETELT89HNL8qK2RTlFpBOjlOSbXp1boODiocSnxWXXLW2WeH3DGazyKkVA==
-  dependencies:
-    comment-json "*"
-
 "@types/graceful-fs@^4.1.2":
   version "4.1.4"
   resolved "https://registry.yarnpkg.com/@types/graceful-fs/-/graceful-fs-4.1.4.tgz#4ff9f641a7c6d1a3508ff88bc3141b152772e753"
@@ -1556,17 +1549,6 @@ combined-stream@^1.0.8:
   dependencies:
     delayed-stream "~1.0.0"
 
-comment-json@*:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/comment-json/-/comment-json-4.1.1.tgz#49df4948704bebb1cc0ffa6910e25669b668b7c5"
-  integrity sha512-v8gmtPvxhBlhdRBLwdHSjGy9BgA23t9H1FctdQKyUrErPjSrJcdDMqBq9B4Irtm7w3TNYLQJNH6ARKnpyag1sA==
-  dependencies:
-    array-timsort "^1.0.3"
-    core-util-is "^1.0.2"
-    esprima "^4.0.1"
-    has-own-prop "^2.0.0"
-    repeat-string "^1.6.1"
-
 comment-json@4.2.2:
   version "4.2.2"
   resolved "https://registry.yarnpkg.com/comment-json/-/comment-json-4.2.2.tgz#5fae70a94e0c8f84a077bd31df5aa5269252f293"
@@ -1590,7 +1572,7 @@ convert-source-map@^1.4.0, convert-source-map@^1.6.0, convert-source-map@^1.7.0:
   dependencies:
     safe-buffer "~5.1.1"
 
-core-util-is@^1.0.2, core-util-is@^1.0.3, core-util-is@~1.0.0:
+core-util-is@^1.0.3, core-util-is@~1.0.0:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.3.tgz#a6042d3634c2b27e9328f837b965fac83808db85"
   integrity sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==

@@ -1,11 +1,13 @@
 // @ts-check
 
-const { parse, stringify } = require('comment-json');
+const { parse } = require('comment-json');
 const fs = require('node:fs');
-const { pathsToModuleNameMapper } = require('ts-jest/utils');
+const { pathsToModuleNameMapper } = require('ts-jest');
 // In the following statement, replace `./tsconfig` with the path to your `tsconfig` file
 // which contains the path mapping (ie the `compilerOptions.paths` option):
 
+// @ts-ignore
+// TODO: fix this type
 const { compilerOptions } = parse(fs.readFileSync('tsconfig.json').toString());
 
 const moduleNameMapper = pathsToModuleNameMapper(compilerOptions.paths);
