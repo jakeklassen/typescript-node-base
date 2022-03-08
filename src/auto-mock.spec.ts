@@ -1,4 +1,4 @@
-import expect from 'expect';
+import { beforeEach, describe, expect, it } from '@jest/globals';
 import { createMock } from 'ts-auto-mock';
 
 interface Person {
