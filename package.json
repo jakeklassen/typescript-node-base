@@ -28,7 +28,7 @@
     "expect": "27.5.1",
     "jest": "27.5.1",
     "jest-ts-auto-mock": "2.1.0",
-    "prettier": "2.5.1",
+    "prettier": "2.6.0",
     "shx": "0.3.4",
     "ts-auto-mock": "3.5.0",
     "ts-jest": "27.1.3",
