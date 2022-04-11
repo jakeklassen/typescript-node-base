@@ -14,12 +14,15 @@ const moduleNameMapper = pathsToModuleNameMapper(compilerOptions.paths);
 
 /** @type {import('ts-jest/dist/types').InitialOptionsTsJest} */
 module.exports = {
-  preset: 'ts-jest',
-  testEnvironment: 'node',
-  setupFiles: ['<rootDir>config.ts'],
-  testPathIgnorePatterns: ['dist'],
-  rootDir: './',
   modulePaths: ['<rootDir>/'],
   moduleNameMapper,
+  preset: 'ts-jest',
+  rootDir: './',
+  setupFiles: ['<rootDir>config.ts'],
+  testEnvironment: 'node',
+  testPathIgnorePatterns: ['dist'],
+  transform: {
+    '.(ts|tsx)': 'ts-jest',
+  },
   verbose: true,
 };
