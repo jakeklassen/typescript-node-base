@@ -10,7 +10,7 @@
   },
   "scripts": {
     "prebuild": "shx rm -rf dist",
-    "build": "tsc",
+    "build": "tsc -p tsconfig.build.json",
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\" .eslintrc.cjs jest.config.cjs",
     "prepare": "ts-patch install -s",
     "watch": "tsc --watch",
@@ -22,6 +22,7 @@
   },
   "devDependencies": {
     "@jest/globals": "28.1.0",
+    "@types/eslint": "^8.4.2",
     "@types/node": "16.11.36",
     "@typescript-eslint/eslint-plugin": "5.26.0",
     "@typescript-eslint/parser": "5.26.0",

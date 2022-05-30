@@ -8,6 +8,8 @@ const { pathsToModuleNameMapper } = require('ts-jest');
 // which contains the path mapping (ie the `compilerOptions.paths` option):
 
 // TODO: fix this type
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-expect-error
 const { compilerOptions } = parse(fs.readFileSync('tsconfig.json').toString());
 
 const moduleNameMapper = pathsToModuleNameMapper(compilerOptions.paths);
