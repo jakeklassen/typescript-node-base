@@ -1,12 +1,12 @@
-// @ts-check
-
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const { parse } = require('comment-json');
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const fs = require('node:fs');
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const { pathsToModuleNameMapper } = require('ts-jest');
 // In the following statement, replace `./tsconfig` with the path to your `tsconfig` file
 // which contains the path mapping (ie the `compilerOptions.paths` option):
 
-// @ts-ignore
 // TODO: fix this type
 const { compilerOptions } = parse(fs.readFileSync('tsconfig.json').toString());
 
