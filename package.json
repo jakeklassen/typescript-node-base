@@ -23,7 +23,7 @@
   "devDependencies": {
     "@jest/globals": "28.1.0",
     "@types/eslint": "^8.4.2",
-    "@types/node": "16.11.37",
+    "@types/node": "16.11.38",
     "@typescript-eslint/eslint-plugin": "5.27.0",
     "@typescript-eslint/parser": "5.27.0",
     "comment-json": "4.2.2",
