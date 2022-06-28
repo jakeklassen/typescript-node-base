@@ -9,12 +9,14 @@
     "clean": "shx rm -rf dist",
     "prebuild": "npm run clean",
     "build": "node --loader ts-node/esm src/build.ts",
-    "postbuild": "replace-tsconfig-paths",
     "watch": "tsc --watch",
     "start": "PORT=$(get-port) nodemon",
-    "pretest": "npm run build",
-    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "test": "vitest",
+    "coverage": "vitest run --coverage",
     "prod": "node ./dist"
+  },
+  "imports": {
+    "@app/*": "./src/*"
   },
   "dependencies": {
     "comment-json": "^4.1.0",
@@ -26,7 +28,6 @@
   },
   "devDependencies": {
     "@types/express": "^4.17.8",
-    "@types/jest": "^28.1.3",
     "@types/node": "^18.0.0",
     "@types/pino-http": "^5.8.0",
     "@typescript-eslint/eslint-plugin": "^5.30.0",
@@ -38,14 +39,12 @@
     "eslint-plugin-prettier": "^4.1.0",
     "get-port": "^6.0.0",
     "get-port-cli": "^3.0.0",
-    "jest": "^28.1.1",
     "nodemon": "^2.0.18",
     "pino-pretty": "^8.1.0",
     "prettier": "^2.7.1",
-    "replace-tsconfig-paths": "^1.2.2",
     "shx": "^0.3.2",
     "tiny-glob": "^0.2.9",
-    "ts-jest": "^28.0.5",
-    "ts-node": "^10.8.1"
+    "ts-node": "^10.8.1",
+    "vitest": "^0.16.0"
   }
 }

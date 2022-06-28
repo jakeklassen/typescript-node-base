@@ -1,4 +1,3 @@
 {
-  "jestrunner.configPath": "jest.debug.config.js",
   "typescript.tsdk": "node_modules/typescript/lib"
 }
