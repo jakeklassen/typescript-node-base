@@ -2,5 +2,5 @@
   "watch": ["src"],
   "ignore": ["src/**/*.test.ts"],
   "ext": "ts,mjs,js,json,graphql",
-  "exec": "ts-node-esm ./src"
+  "exec": "vite-node ./src"
 }
