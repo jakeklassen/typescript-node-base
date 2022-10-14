@@ -1,4 +1,4 @@
-import { sum } from '#app/lib/math';
+import { sum } from '#app/lib/math.js';
 import { describe, expect, it } from '@jest/globals';
 
 describe('math', () => {

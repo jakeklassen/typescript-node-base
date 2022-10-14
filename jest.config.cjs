@@ -14,17 +14,24 @@ const { compilerOptions } = parse(fs.readFileSync('tsconfig.json').toString());
 
 const moduleNameMapper = pathsToModuleNameMapper(compilerOptions.paths);
 
-/** @type {import('ts-jest/dist/types').InitialOptionsTsJest} */
+/** @type {import('ts-jest').JestConfigWithTsJest } */
 module.exports = {
   modulePaths: ['<rootDir>/'],
   moduleNameMapper,
-  preset: 'ts-jest',
+  preset: 'ts-jest/presets/default-esm',
   rootDir: './',
   setupFiles: ['<rootDir>config.ts'],
   testEnvironment: 'node',
   testPathIgnorePatterns: ['dist'],
   transform: {
-    '.(ts|tsx)': 'ts-jest',
+    // '^.+\\.[tj]sx?$' to process js/ts with `ts-jest`
+    // '^.+\\.m?[tj]sx?$' to process js/ts/mjs/mts with `ts-jest`
+    '^.+\\.tsx?$': [
+      'ts-jest',
+      {
+        useESM: true,
+      },
+    ],
   },
   verbose: true,
 };
