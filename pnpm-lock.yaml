@@ -41,8 +41,8 @@ devDependencies:
     specifier: 0.17.0
     version: 0.17.0
   expect:
-    specifier: 29.6.2
-    version: 29.6.2
+    specifier: 29.6.3
+    version: 29.6.3
   jest:
     specifier: 29.6.2
     version: 29.6.2(@types/node@20.5.0)
@@ -816,7 +816,7 @@ packages:
     resolution: {integrity: sha512-m6DrEJxVKjkELTVAztTLyS/7C92Y2b0VYqmDROYKLLALHn8T/04yPs70NADUYPrV3ruI+H3J0iUIuhkjp7vkfg==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
-      expect: 29.6.2
+      expect: 29.6.3
       jest-snapshot: 29.6.2
     transitivePeerDependencies:
       - supports-color
@@ -2199,16 +2199,15 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: true
 
-  /expect@29.6.2:
-    resolution: {integrity: sha512-iAErsLxJ8C+S02QbLAwgSGSezLQK+XXRDt8IuFXFpwCNw2ECmzZSmjKcCaFVp5VRMk+WAvz6h6jokzEzBFZEuA==}
+  /expect@29.6.3:
+    resolution: {integrity: sha512-x1vY4LlEMWUYVZQrFi4ZANXFwqYbJ/JNQspLVvzhW2BNY28aNcXMQH6imBbt+RBf5sVRTodYHXtSP/TLEU0Dxw==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
-      '@jest/expect-utils': 29.6.2
-      '@types/node': 20.5.0
-      jest-get-type: 29.4.3
-      jest-matcher-utils: 29.6.2
-      jest-message-util: 29.6.2
-      jest-util: 29.6.2
+      '@jest/expect-utils': 29.6.3
+      jest-get-type: 29.6.3
+      jest-matcher-utils: 29.6.3
+      jest-message-util: 29.6.3
+      jest-util: 29.6.3
     dev: true
 
   /expect@29.6.3:
@@ -3021,7 +3020,7 @@ packages:
       '@jest/types': 29.6.1
       babel-preset-current-node-syntax: 1.0.1(@babel/core@7.21.3)
       chalk: 4.1.2
-      expect: 29.6.2
+      expect: 29.6.3
       graceful-fs: 4.2.11
       jest-diff: 29.6.2
       jest-get-type: 29.4.3
