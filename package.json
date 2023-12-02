@@ -29,7 +29,7 @@
     "@typescript-eslint/parser": "6.13.1",
     "comment-json": "4.2.3",
     "eslint": "^8.54.0",
-    "eslint-config-prettier": "9.0.0",
+    "eslint-config-prettier": "9.1.0",
     "eslint-plugin-prettier": "5.0.1",
     "esno": "4.0.0",
     "expect": "29.7.0",
