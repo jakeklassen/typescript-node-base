@@ -56,8 +56,8 @@ devDependencies:
     specifier: 29.1.1
     version: 29.1.1(@babel/core@7.22.10)(jest@29.7.0)(typescript@5.3.3)
   ts-patch:
-    specifier: 3.1.1
-    version: 3.1.1
+    specifier: 3.1.2
+    version: 3.1.2
   tsm:
     specifier: 2.3.0
     version: 2.3.0
@@ -3752,8 +3752,8 @@ packages:
       yargs-parser: 21.1.1
     dev: true
 
-  /ts-patch@3.1.1:
-    resolution: {integrity: sha512-ReGYz9jQYC80PFafBx25TC0UI9cSgmUBtpT+WIy8IrhpLVzEHf430k03XQYOMldQMyZDBbzn5fBPELgtIl65cA==}
+  /ts-patch@3.1.2:
+    resolution: {integrity: sha512-n58F5AqjUMdp9RAKq+E1YBkmONltPVbt1nN+wrmZXoYZek6QcvaTuqvKMhYhr5BxtC53kD/exxIPA1cP1RQxsA==}
     hasBin: true
     dependencies:
       chalk: 4.1.2
