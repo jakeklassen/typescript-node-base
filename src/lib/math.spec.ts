@@ -1,5 +1,5 @@
 import { sum } from '#app/lib/math.js';
-import { describe, expect, it } from '@jest/globals';
+import { describe, expect, it } from 'vitest';
 
 describe('math', () => {
   describe('add', () => {

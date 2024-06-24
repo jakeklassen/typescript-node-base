@@ -1,11 +1,11 @@
 import { waitFor } from '#app/lib/wait-for.js';
-import { beforeEach, describe, expect, it, jest } from '@jest/globals';
+import { beforeEach, describe, expect, it, vi } from 'vitest';
 
-jest.useFakeTimers();
+vi.useFakeTimers();
 
 describe('waitFor', () => {
   beforeEach(() => {
-    jest.spyOn(global, 'setTimeout');
+    vi.spyOn(global, 'setTimeout');
   });
 
   it('should call setTimeout', async () => {
@@ -15,7 +15,7 @@ describe('waitFor', () => {
 
     expect(setTimeout).toBeCalledWith(expect.any(Function), timeout);
 
-    jest.runOnlyPendingTimers();
+    vi.runOnlyPendingTimers();
 
     await promise;
   });

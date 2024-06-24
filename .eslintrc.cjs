@@ -5,12 +5,12 @@ module.exports = {
   root: true,
   env: {
     es6: true,
-    jest: true,
+    jest: false,
     node: true,
   },
   parser: '@typescript-eslint/parser',
   parserOptions: {
-    ecmaVersion: 2021,
+    ecmaVersion: 2023,
     sourceType: 'module',
   },
   globals: {
