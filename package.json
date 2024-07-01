@@ -21,8 +21,8 @@
   "devDependencies": {
     "@types/eslint": "8.56.10",
     "@types/node": "^20.11.23",
-    "@typescript-eslint/eslint-plugin": "7.14.1",
-    "@typescript-eslint/parser": "7.14.1",
+    "@typescript-eslint/eslint-plugin": "7.15.0",
+    "@typescript-eslint/parser": "7.15.0",
     "comment-json": "4.2.3",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "9.1.0",
