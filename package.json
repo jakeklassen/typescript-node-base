@@ -19,7 +19,7 @@
     "test": "vitest"
   },
   "devDependencies": {
-    "@types/eslint": "8.56.10",
+    "@types/eslint": "8.56.11",
     "@types/node": "^20.11.23",
     "@typescript-eslint/eslint-plugin": "7.16.1",
     "@typescript-eslint/parser": "7.16.1",
