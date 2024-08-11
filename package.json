@@ -6,7 +6,7 @@
 	"license": "MIT",
 	"type": "module",
 	"imports": {
-		"#app/*": "./dist/*"
+		"#app/*": "./src/*"
 	},
 	"scripts": {
 		"prebuild": "shx rm -rf dist",
@@ -14,8 +14,8 @@
 		"lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\" eslint.config.mjs",
 		"lint:fix": "eslint --fix \"src/**/*.{js,jsx,ts,tsx}\" eslint.config.mjs",
 		"watch": "tsc --watch",
-		"dev": "nodemon",
-		"start": "node --import=tsx src/index.ts",
+		"dev": "node --experimental-strip-types --watch src/index.ts",
+		"start": "node --experimental-strip-types src/index.ts",
 		"prod": "node dist",
 		"test": "vitest run",
 		"test:watch": "vitest"
@@ -42,5 +42,9 @@
 		"typescript": "5.5.4",
 		"vitest": "^2.0.1"
 	},
-	"packageManager": "pnpm@9.7.0"
+	"packageManager": "pnpm@9.7.0",
+	"dependencies": {
+		"pretty-bytes": "^6.1.1",
+		"systeminformation": "^5.23.4"
+	}
 }
