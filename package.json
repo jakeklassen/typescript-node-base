@@ -36,7 +36,7 @@
 		"expect": "29.7.0",
 		"globals": "^15.11.0",
 		"nodemon": "^3.1.6",
-		"prettier": "3.4.1",
+		"prettier": "3.4.2",
 		"shx": "0.3.4",
 		"tsx": "^4.19.1",
 		"typescript": "5.7.2",
