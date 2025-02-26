@@ -1,6 +1,10 @@
 {
-	"watch": ["src"],
-	"ignore": ["src/**/*.test.ts"],
+	"watch": [
+		"src"
+	],
+	"ignore": [
+		"src/**/*.test.ts"
+	],
 	"ext": "ts,mjs,js,json,graphql",
-	"exec": "node --experimental-strip-types src/index.ts"
+	"exec": "tsx src/index.ts"
 }

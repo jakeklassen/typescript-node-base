@@ -1,22 +1,15 @@
-import { FlatCompat } from '@eslint/eslintrc';
-import js from '@eslint/js';
 import typescriptEslintPlugin from '@typescript-eslint/eslint-plugin';
 import tsParser from '@typescript-eslint/parser';
+import prettierConfig from 'eslint-config-prettier';
 import * as depend from 'eslint-plugin-depend';
-import prettier from 'eslint-plugin-prettier';
+import prettierPlugin from 'eslint-plugin-prettier';
 import globals from 'globals';
-import path from 'node:path';
-import { fileURLToPath } from 'node:url';
+import tseslint from 'typescript-eslint';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-const compat = new FlatCompat({
-	baseDirectory: __dirname,
-	recommendedConfig: js.configs.recommended,
-	allConfig: js.configs.all,
-});
-
-export default [
+/**
+ * @type {import('typescript-eslint').ConfigArray}
+ */
+export default tseslint.config(
 	{
 		ignores: [
 			'!**/.mocharc.cjs',
@@ -26,27 +19,25 @@ export default [
 			'**/public',
 		],
 	},
-	...compat.extends(
-		'eslint:recommended',
-		'plugin:prettier/recommended',
-		'plugin:@typescript-eslint/recommended',
-	),
-	depend.configs['flat/recommended'],
 	{
 		plugins: {
-			prettier,
+			prettierPlugin,
 			typescriptEslintPlugin,
 		},
 
 		languageOptions: {
 			globals: {
 				...globals.node,
-				...globals.jest,
 			},
 
 			parser: tsParser,
-			ecmaVersion: 2023,
+			ecmaVersion: 2024,
 			sourceType: 'module',
+
+			parserOptions: {
+				projectService: true,
+				tsconfigRootDir: import.meta.dirname,
+			},
 		},
 
 		rules: {
@@ -55,6 +46,7 @@ export default [
 			'@typescript-eslint/no-explicit-any': 'off',
 			'@typescript-eslint/camelcase': 'off',
 			'@typescript-eslint/no-var-requires': 'off',
+			'@typescript-eslint/no-unnecessary-condition': 'warn',
 			'no-unused-vars': 'off',
 
 			'@typescript-eslint/no-unused-vars': [
@@ -66,4 +58,8 @@ export default [
 			],
 		},
 	},
-];
+	tseslint.configs.recommendedTypeChecked,
+	tseslint.configs.stylistic,
+	prettierConfig,
+	depend.configs['flat/recommended'],
+);
