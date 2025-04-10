@@ -36,8 +36,8 @@ importers:
         specifier: 10.1.2
         version: 10.1.2(eslint@9.24.0(jiti@2.4.2))
       eslint-plugin-depend:
-        specifier: ^0.12.0
-        version: 0.12.0
+        specifier: ^1.0.0
+        version: 1.0.0
       eslint-plugin-prettier:
         specifier: 5.2.6
         version: 5.2.6(@types/eslint@9.6.1)(eslint-config-prettier@10.1.2(eslint@9.24.0(jiti@2.4.2)))(eslint@9.24.0(jiti@2.4.2))(prettier@3.5.3)
@@ -867,8 +867,8 @@ packages:
     peerDependencies:
       eslint: '>=7.0.0'
 
-  eslint-plugin-depend@0.12.0:
-    resolution: {integrity: sha512-bS5ESnC3eXDJPNv0RKkzRbLO45hRRLR/dleAUdbysXChWz1bAxa4MRh14EtDREn7fZieueqz4L7TfQQbzvdYHA==}
+  eslint-plugin-depend@1.0.0:
+    resolution: {integrity: sha512-w49fVwN3mhkqEfUXdguy6cTrPvj18PtsIq1tcqtGlHBWv7OPz2w8ogzQCiiKDRrN5VDb9B0K2zSw/P/Cm4GNkw==}
 
   eslint-plugin-prettier@5.2.6:
     resolution: {integrity: sha512-mUcf7QG2Tjk7H055Jk0lGBjbgDnfrvqjhXh9t2xLMSCjZVcw9Rb1V6sVNXO0th3jgeO7zllWPTNRil3JW94TnQ==}
@@ -2262,11 +2262,11 @@ snapshots:
     dependencies:
       eslint: 9.24.0(jiti@2.4.2)
 
-  eslint-plugin-depend@0.12.0:
+  eslint-plugin-depend@1.0.0:
     dependencies:
       fd-package-json: 1.2.0
       module-replacements: 2.4.0
-      semver: 7.6.3
+      semver: 7.7.1
 
   eslint-plugin-prettier@5.2.6(@types/eslint@9.6.1)(eslint-config-prettier@10.1.2(eslint@9.24.0(jiti@2.4.2)))(eslint@9.24.0(jiti@2.4.2))(prettier@3.5.3):
     dependencies:
