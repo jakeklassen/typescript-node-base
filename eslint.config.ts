@@ -6,9 +6,6 @@ import prettierPlugin from 'eslint-plugin-prettier';
 import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
-/**
- * @type {import('typescript-eslint').ConfigArray}
- */
 export default tseslint.config(
 	{
 		ignores: [
