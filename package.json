@@ -43,7 +43,7 @@
 		"typescript-eslint": "^8.34.0",
 		"vitest": "^3.2.2"
 	},
-	"packageManager": "pnpm@10.12.4",
+	"packageManager": "pnpm@10.13.1",
 	"pnpm": {
 		"onlyBuiltDependencies": [
 			"@babel/code-frame",
