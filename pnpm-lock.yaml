@@ -27,8 +27,8 @@ importers:
         specifier: ^8.40.0
         version: 8.45.0(eslint@9.36.0(jiti@2.6.1))(typescript@5.9.3)
       comment-json:
-        specifier: 4.4.0
-        version: 4.4.0
+        specifier: 4.4.1
+        version: 4.4.1
       eslint:
         specifier: ^9.32.0
         version: 9.36.0(jiti@2.6.1)
@@ -658,8 +658,8 @@ packages:
   color-name@1.1.4:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
 
-  comment-json@4.4.0:
-    resolution: {integrity: sha512-S/kHITMNFohZ/3lK6zd1Wyxnx+VfjJXzTHSZwUd9kPyNa8ndByPmeZO99MT3k8uFvcgipueyrb6rnefgRiqbAQ==}
+  comment-json@4.4.1:
+    resolution: {integrity: sha512-r1To31BQD5060QdkC+Iheai7gHwoSZobzunqkf2/kQ6xIAfJyrKNAFUwdKvkK7Qgu7pVTKQEa7ok7Ed3ycAJgg==}
     engines: {node: '>= 6'}
 
   concat-map@0.0.1:
@@ -1974,7 +1974,7 @@ snapshots:
 
   color-name@1.1.4: {}
 
-  comment-json@4.4.0:
+  comment-json@4.4.1:
     dependencies:
       array-timsort: 1.0.3
       core-util-is: 1.0.3
