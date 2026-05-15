@@ -24,9 +24,9 @@
 		"@eslint/js": "^10.0.0",
 		"@types/eslint": "9.6.1",
 		"@types/eslint-config-prettier": "^6.11.3",
-		"@types/node": "^25.6.0",
-		"@typescript-eslint/eslint-plugin": "8.59.2",
-		"@typescript-eslint/parser": "^8.54.0",
+		"@types/node": "^25.7.0",
+		"@typescript-eslint/eslint-plugin": "8.59.3",
+		"@typescript-eslint/parser": "^8.59.3",
 		"comment-json": "5.0.0",
 		"eslint": "^10.2.0",
 		"eslint-config-prettier": "10.1.8",
@@ -38,10 +38,10 @@
 		"nodemon": "^3.1.9",
 		"prettier": "3.8.3",
 		"shx": "0.4.0",
-		"tsx": "^4.20.3",
+		"tsx": "^4.22.0",
 		"typescript": "6.0.3",
-		"typescript-eslint": "^8.54.0",
-		"vitest": "^4.1.5"
+		"typescript-eslint": "^8.59.3",
+		"vitest": "^4.1.6"
 	},
 	"packageManager": "pnpm@11.0.9"
 }
