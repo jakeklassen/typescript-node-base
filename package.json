@@ -25,7 +25,7 @@
 		"@types/eslint": "9.6.1",
 		"@types/eslint-config-prettier": "^6.11.3",
 		"@types/node": "^25.8.0",
-		"@typescript-eslint/eslint-plugin": "8.59.3",
+		"@typescript-eslint/eslint-plugin": "8.59.4",
 		"@typescript-eslint/parser": "^8.59.3",
 		"comment-json": "5.0.0",
 		"eslint": "^10.4.0",
