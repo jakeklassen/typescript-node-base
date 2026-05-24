@@ -24,7 +24,7 @@
 		"@eslint/js": "^10.0.0",
 		"@types/eslint": "9.6.1",
 		"@types/eslint-config-prettier": "^6.11.3",
-		"@types/node": "^25.8.0",
+		"@types/node": "^25.9.1",
 		"@typescript-eslint/eslint-plugin": "8.59.4",
 		"@typescript-eslint/parser": "^8.59.3",
 		"comment-json": "5.0.0",
@@ -41,7 +41,7 @@
 		"tsx": "^4.22.0",
 		"typescript": "6.0.3",
 		"typescript-eslint": "^8.59.3",
-		"vitest": "^4.1.6"
+		"vitest": "^4.1.7"
 	},
 	"packageManager": "pnpm@11.1.2"
 }
